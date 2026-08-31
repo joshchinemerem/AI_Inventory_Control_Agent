@@ -41,9 +41,12 @@ This project is structured around those requirements.
 AI_Inventory_Control_Agent/
 ├── data/
 │   └── inventory_history.csv
-├── src/
+├── ├── src/
+│   ├── app.py
 │   ├── inventory_agent.py
 │   └── evaluate.py
+│   
+│  
 ├── prompts/
 │   ├── data_agent.txt
 │   ├── inventory_risk_agent.txt
