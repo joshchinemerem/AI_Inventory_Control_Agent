@@ -1,0 +1,8 @@
+{
+  "evaluation_cases": 12,
+  "baseline_accuracy_vs_reference": 0.583,
+  "final_workflow_accuracy_vs_reference": 1.0,
+  "baseline_false_negatives": 5,
+  "final_false_negatives": 0,
+  "note": "Synthetic demonstration. Run the final approved evaluation set yourself before submission."
+}

@@ -1,0 +1,13 @@
+item_code,baseline,reference,final
+RM-001,False,False,False
+RM-002,False,True,True
+RM-003,True,True,True
+RM-004,False,True,True
+RM-005,False,True,True
+RM-006,False,True,True
+RM-007,True,True,True
+RM-008,False,True,True
+RM-009,False,False,False
+RM-010,True,True,True
+RM-011,False,False,False
+RM-012,False,False,False

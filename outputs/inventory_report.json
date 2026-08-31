@@ -1,0 +1,277 @@
+{
+  "title": "AI Inventory Control Agent \u2014 Inventory Risk Report",
+  "method": "Data Agent \u2192 Inventory Risk Agent \u2192 Verification Agent \u2192 Report Agent",
+  "summary": {
+    "items_reviewed": 12,
+    "critical": 7,
+    "high": 0,
+    "medium": 1,
+    "low": 4,
+    "verification_issues": 0
+  },
+  "findings": [
+    {
+      "item_code": "RM-008",
+      "item_name": "Cleaning Chemical",
+      "risk_level": "CRITICAL",
+      "days_of_cover": 8.63,
+      "avg_daily_demand": 23.9,
+      "projected_lead_time_demand": 334.56,
+      "recommended_order_qty": 514.64,
+      "reasons": [
+        "stock is at or below the reorder point",
+        "days of cover is no greater than supplier lead time"
+      ],
+      "evidence": {
+        "latest_stock": 206.27,
+        "30_day_avg_demand": 24.79,
+        "7_day_avg_demand": 23.9,
+        "lead_time_days": 14.0,
+        "safety_stock": 4.0,
+        "reorder_point": 338.56,
+        "demand_std": 3.7
+      }
+    },
+    {
+      "item_code": "RM-002",
+      "item_name": "Vegetable Oil",
+      "risk_level": "CRITICAL",
+      "days_of_cover": 4.43,
+      "avg_daily_demand": 156.01,
+      "projected_lead_time_demand": 1560.06,
+      "recommended_order_qty": 3999.67,
+      "reasons": [
+        "stock is at or below the reorder point",
+        "days of cover is no greater than supplier lead time",
+        "recent demand is materially above the 30-day average"
+      ],
+      "evidence": {
+        "latest_stock": 690.5,
+        "30_day_avg_demand": 128.98,
+        "7_day_avg_demand": 156.01,
+        "lead_time_days": 10.0,
+        "safety_stock": 10.0,
+        "reorder_point": 1570.06,
+        "demand_std": 20.88
+      }
+    },
+    {
+      "item_code": "RM-004",
+      "item_name": "Tomato Paste",
+      "risk_level": "CRITICAL",
+      "days_of_cover": 1.44,
+      "avg_daily_demand": 52.52,
+      "projected_lead_time_demand": 630.27,
+      "recommended_order_qty": 1507.24,
+      "reasons": [
+        "stock is at or below the reorder point",
+        "days of cover is no greater than supplier lead time"
+      ],
+      "evidence": {
+        "latest_stock": 75.45,
+        "30_day_avg_demand": 52.48,
+        "7_day_avg_demand": 52.52,
+        "lead_time_days": 12.0,
+        "safety_stock": 7.0,
+        "reorder_point": 637.27,
+        "demand_std": 10.52
+      }
+    },
+    {
+      "item_code": "RM-005",
+      "item_name": "Packaging Film",
+      "risk_level": "CRITICAL",
+      "days_of_cover": 0.78,
+      "avg_daily_demand": 36.65,
+      "projected_lead_time_demand": 513.1,
+      "recommended_order_qty": 1075.99,
+      "reasons": [
+        "stock is at or below the reorder point",
+        "days of cover is no greater than supplier lead time"
+      ],
+      "evidence": {
+        "latest_stock": 28.51,
+        "30_day_avg_demand": 36.38,
+        "7_day_avg_demand": 36.65,
+        "lead_time_days": 14.0,
+        "safety_stock": 5.0,
+        "reorder_point": 518.1,
+        "demand_std": 3.01
+      }
+    },
+    {
+      "item_code": "RM-003",
+      "item_name": "Sugar",
+      "risk_level": "CRITICAL",
+      "days_of_cover": 0.0,
+      "avg_daily_demand": 96.43,
+      "projected_lead_time_demand": 771.41,
+      "recommended_order_qty": 2900.77,
+      "reasons": [
+        "stock is at or below the reorder point",
+        "days of cover is no greater than supplier lead time"
+      ],
+      "evidence": {
+        "latest_stock": 0.0,
+        "30_day_avg_demand": 100.18,
+        "7_day_avg_demand": 96.43,
+        "lead_time_days": 8.0,
+        "safety_stock": 8.0,
+        "reorder_point": 779.41,
+        "demand_std": 9.43
+      }
+    },
+    {
+      "item_code": "RM-007",
+      "item_name": "Labels",
+      "risk_level": "CRITICAL",
+      "days_of_cover": 0.0,
+      "avg_daily_demand": 65.19,
+      "projected_lead_time_demand": 456.32,
+      "recommended_order_qty": 1960.66,
+      "reasons": [
+        "stock is at or below the reorder point",
+        "days of cover is no greater than supplier lead time",
+        "recent demand is materially above the 30-day average"
+      ],
+      "evidence": {
+        "latest_stock": 0.0,
+        "30_day_avg_demand": 48.86,
+        "7_day_avg_demand": 65.19,
+        "lead_time_days": 7.0,
+        "safety_stock": 5.0,
+        "reorder_point": 461.32,
+        "demand_std": 10.79
+      }
+    },
+    {
+      "item_code": "RM-010",
+      "item_name": "Yeast",
+      "risk_level": "CRITICAL",
+      "days_of_cover": 0.0,
+      "avg_daily_demand": 17.98,
+      "projected_lead_time_demand": 89.92,
+      "recommended_order_qty": 542.53,
+      "reasons": [
+        "stock is at or below the reorder point",
+        "days of cover is no greater than supplier lead time"
+      ],
+      "evidence": {
+        "latest_stock": 0.0,
+        "30_day_avg_demand": 17.59,
+        "7_day_avg_demand": 17.98,
+        "lead_time_days": 5.0,
+        "safety_stock": 3.0,
+        "reorder_point": 92.92,
+        "demand_std": 1.78
+      }
+    },
+    {
+      "item_code": "RM-006",
+      "item_name": "Plastic Bottles",
+      "risk_level": "MEDIUM",
+      "days_of_cover": 11.8,
+      "avg_daily_demand": 945.62,
+      "projected_lead_time_demand": 9456.16,
+      "recommended_order_qty": 17257.54,
+      "reasons": [
+        "recent demand is materially above the 30-day average"
+      ],
+      "evidence": {
+        "latest_stock": 11155.93,
+        "30_day_avg_demand": 711.47,
+        "7_day_avg_demand": 945.62,
+        "lead_time_days": 10.0,
+        "safety_stock": 45.0,
+        "reorder_point": 9501.16,
+        "demand_std": 146.35
+      }
+    },
+    {
+      "item_code": "RM-012",
+      "item_name": "Spices",
+      "risk_level": "LOW",
+      "days_of_cover": 19.68,
+      "avg_daily_demand": 9.95,
+      "projected_lead_time_demand": 59.69,
+      "recommended_order_qty": 104.71,
+      "reasons": [
+        "stock position currently provides more cover than the defined lead-time threshold"
+      ],
+      "evidence": {
+        "latest_stock": 195.75,
+        "30_day_avg_demand": 10.14,
+        "7_day_avg_demand": 9.95,
+        "lead_time_days": 6.0,
+        "safety_stock": 2.0,
+        "reorder_point": 61.69,
+        "demand_std": 1.29
+      }
+    },
+    {
+      "item_code": "RM-009",
+      "item_name": "Cartons",
+      "risk_level": "LOW",
+      "days_of_cover": 16.13,
+      "avg_daily_demand": 175.62,
+      "projected_lead_time_demand": 1756.23,
+      "recommended_order_qty": 2454.48,
+      "reasons": [
+        "stock position currently provides more cover than the defined lead-time threshold"
+      ],
+      "evidence": {
+        "latest_stock": 2832.21,
+        "30_day_avg_demand": 169.59,
+        "7_day_avg_demand": 175.62,
+        "lead_time_days": 10.0,
+        "safety_stock": 18.0,
+        "reorder_point": 1774.23,
+        "demand_std": 32.76
+      }
+    },
+    {
+      "item_code": "RM-011",
+      "item_name": "Coffee Beans",
+      "risk_level": "LOW",
+      "days_of_cover": 14.9,
+      "avg_daily_demand": 21.97,
+      "projected_lead_time_demand": 197.69,
+      "recommended_order_qty": 335.71,
+      "reasons": [
+        "stock position currently provides more cover than the defined lead-time threshold"
+      ],
+      "evidence": {
+        "latest_stock": 327.26,
+        "30_day_avg_demand": 22.09,
+        "7_day_avg_demand": 21.97,
+        "lead_time_days": 9.0,
+        "safety_stock": 4.0,
+        "reorder_point": 201.69,
+        "demand_std": 2.63
+      }
+    },
+    {
+      "item_code": "RM-001",
+      "item_name": "Wheat Flour",
+      "risk_level": "LOW",
+      "days_of_cover": 13.19,
+      "avg_daily_demand": 193.85,
+      "projected_lead_time_demand": 1356.97,
+      "recommended_order_qty": 3271.6,
+      "reasons": [
+        "stock position currently provides more cover than the defined lead-time threshold"
+      ],
+      "evidence": {
+        "latest_stock": 2555.99,
+        "30_day_avg_demand": 184.8,
+        "7_day_avg_demand": 193.85,
+        "lead_time_days": 7.0,
+        "safety_stock": 12.0,
+        "reorder_point": 1368.97,
+        "demand_std": 19.47
+      }
+    }
+  ],
+  "verification_notes": [],
+  "human_approval_required": true
+}
